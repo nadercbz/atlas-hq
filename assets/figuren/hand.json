@@ -1,0 +1,532 @@
+{
+ "datei": "hand.glb",
+ "einheit": "Meter",
+ "raum": "Three, Y oben. Finger -Z, Unterarm +Z, Handfläche -X, Daumen +Y, Handgelenk im Ursprung",
+ "drehen": "Ruhe Quaternion des Knochens merken, dann ruhe.multiply(Drehung um lokale X Achse). Positiv beugt zur Handfläche.",
+ "dreiecke": 24386,
+ "vertexfarben": true,
+ "farbe": "Materialfarbe mal Vertexfarbe (COLOR_0, neutral 0.88) ergibt die Zielfarbe. Haut #b07a55, Nagel #dcae93, Ärmel #e6d8bd.",
+ "materialien": [
+  "haut",
+  "nagel",
+  "aermel"
+ ],
+ "index_tip": [
+  -0.01668,
+  0.0422,
+  -0.17278
+ ],
+ "masse": {
+  "hand_bis_mittelfinger": 0.1876,
+  "aermel_bis": 0.31,
+  "min": [
+   -0.0475,
+   -0.0555,
+   -0.1886
+  ],
+  "max": [
+   0.0479,
+   0.0779,
+   0.31
+  ]
+ },
+ "posen_grad": {
+  "faust": {
+   "index_1": 82,
+   "index_2": 98,
+   "index_3": 62,
+   "middle_1": 82,
+   "middle_2": 98,
+   "middle_3": 62,
+   "ring_1": 82,
+   "ring_2": 98,
+   "ring_3": 62,
+   "pinky_1": 82,
+   "pinky_2": 98,
+   "pinky_3": 62,
+   "thumb_1": 22,
+   "thumb_2": 32,
+   "thumb_3": 48
+  },
+  "zeigen": {
+   "index_1": -4,
+   "index_2": -8,
+   "index_3": -6,
+   "middle_1": 82,
+   "middle_2": 98,
+   "middle_3": 62,
+   "ring_1": 82,
+   "ring_2": 98,
+   "ring_3": 62,
+   "pinky_1": 82,
+   "pinky_2": 98,
+   "pinky_3": 62,
+   "thumb_1": -6,
+   "thumb_2": -4
+  }
+ },
+ "knochen": [
+  {
+   "name": "forearm",
+   "eltern": null,
+   "laenge": 0.28,
+   "kopf": [
+    0.0,
+    0.0,
+    0.28
+   ],
+   "ende": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "hinweis": "positiv um X klappt zur Handfläche"
+   }
+  },
+  {
+   "name": "hand",
+   "eltern": "forearm",
+   "laenge": 0.085,
+   "kopf": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "ende": [
+    0.0,
+    0.0,
+    -0.085
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "hinweis": "positiv um X klappt zur Handfläche"
+   }
+  },
+  {
+   "name": "thumb_1",
+   "eltern": "hand",
+   "laenge": 0.044,
+   "kopf": [
+    -0.006,
+    0.026,
+    -0.02
+   ],
+   "ende": [
+    -0.01525,
+    0.04935,
+    -0.05613
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.6202,
+     -0.72163,
+     -0.30758
+    ]
+   }
+  },
+  {
+   "name": "thumb_2",
+   "eltern": "thumb_1",
+   "laenge": 0.034,
+   "kopf": [
+    -0.01525,
+    0.04935,
+    -0.05613
+   ],
+   "ende": [
+    -0.02595,
+    0.06286,
+    -0.08544
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.57426,
+     -0.80282,
+     -0.16033
+    ]
+   }
+  },
+  {
+   "name": "thumb_3",
+   "eltern": "thumb_2",
+   "laenge": 0.029,
+   "kopf": [
+    -0.02595,
+    0.06286,
+    -0.08544
+   ],
+   "ende": [
+    -0.03758,
+    0.0706,
+    -0.11085
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.51795,
+     -0.85509,
+     -0.02351
+    ]
+   }
+  },
+  {
+   "name": "index_1",
+   "eltern": "hand",
+   "laenge": 0.043,
+   "kopf": [
+    0.001,
+    0.03,
+    -0.086
+   ],
+   "ende": [
+    -0.00275,
+    0.03596,
+    -0.12842
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.99619,
+     -0.01213,
+     0.08631
+    ]
+   }
+  },
+  {
+   "name": "index_2",
+   "eltern": "index_1",
+   "laenge": 0.025,
+   "kopf": [
+    -0.00275,
+    0.03596,
+    -0.12842
+   ],
+   "ende": [
+    -0.0088,
+    0.03934,
+    -0.15244
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.9703,
+     -0.03367,
+     0.23957
+    ]
+   }
+  },
+  {
+   "name": "index_3",
+   "eltern": "index_2",
+   "laenge": 0.022,
+   "kopf": [
+    -0.0088,
+    0.03934,
+    -0.15244
+   ],
+   "ende": [
+    -0.01668,
+    0.0422,
+    -0.17278
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.93358,
+     -0.04988,
+     0.35488
+    ]
+   }
+  },
+  {
+   "name": "middle_1",
+   "eltern": "hand",
+   "laenge": 0.047,
+   "kopf": [
+    0.0015,
+    0.0095,
+    -0.091
+   ],
+   "ende": [
+    -0.0026,
+    0.01073,
+    -0.13781
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.99619,
+     -0.00228,
+     0.08713
+    ]
+   }
+  },
+  {
+   "name": "middle_2",
+   "eltern": "middle_1",
+   "laenge": 0.029,
+   "kopf": [
+    -0.0026,
+    0.01073,
+    -0.13781
+   ],
+   "ende": [
+    -0.0101,
+    0.01146,
+    -0.16581
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.96593,
+     -0.00678,
+     0.25873
+    ]
+   }
+  },
+  {
+   "name": "middle_3",
+   "eltern": "middle_2",
+   "laenge": 0.0235,
+   "kopf": [
+    -0.0101,
+    0.01146,
+    -0.16581
+   ],
+   "ende": [
+    -0.01891,
+    0.01203,
+    -0.18759
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.92718,
+     -0.00981,
+     0.37448
+    ]
+   }
+  },
+  {
+   "name": "ring_1",
+   "eltern": "hand",
+   "laenge": 0.043,
+   "kopf": [
+    0.001,
+    -0.0105,
+    -0.086
+   ],
+   "ende": [
+    -0.00349,
+    -0.01423,
+    -0.1286
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.99452,
+     0.00911,
+     0.10413
+    ]
+   }
+  },
+  {
+   "name": "ring_2",
+   "eltern": "ring_1",
+   "laenge": 0.027,
+   "kopf": [
+    -0.00349,
+    -0.01423,
+    -0.1286
+   ],
+   "ende": [
+    -0.01139,
+    -0.01648,
+    -0.15432
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.9563,
+     0.02548,
+     0.29126
+    ]
+   }
+  },
+  {
+   "name": "ring_3",
+   "eltern": "ring_2",
+   "laenge": 0.022,
+   "kopf": [
+    -0.01139,
+    -0.01648,
+    -0.15432
+   ],
+   "ende": [
+    -0.02069,
+    -0.01822,
+    -0.17419
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.90631,
+     0.03683,
+     0.42101
+    ]
+   }
+  },
+  {
+   "name": "pinky_1",
+   "eltern": "hand",
+   "laenge": 0.034,
+   "kopf": [
+    0.0,
+    -0.029,
+    -0.076
+   ],
+   "ende": [
+    -0.00414,
+    -0.03659,
+    -0.10888
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.99255,
+     0.02741,
+     0.11875
+    ]
+   }
+  },
+  {
+   "name": "pinky_2",
+   "eltern": "pinky_1",
+   "laenge": 0.02,
+   "kopf": [
+    -0.00414,
+    -0.03659,
+    -0.10888
+   ],
+   "ende": [
+    -0.01065,
+    -0.04085,
+    -0.12731
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.94552,
+     0.07324,
+     0.31722
+    ]
+   }
+  },
+  {
+   "name": "pinky_3",
+   "eltern": "pinky_2",
+   "laenge": 0.0195,
+   "kopf": [
+    -0.01065,
+    -0.04085,
+    -0.12731
+   ],
+   "ende": [
+    -0.01951,
+    -0.04475,
+    -0.14424
+   ],
+   "beugen": {
+    "achse": "x",
+    "vorzeichen": 1,
+    "geprueft": true,
+    "treffer_blender": 0.954,
+    "treffer_glb": 0.954,
+    "richtung": [
+     -0.89101,
+     0.10213,
+     0.44235
+    ]
+   }
+  },
+  {
+   "name": "index_tip",
+   "eltern": "index_3",
+   "laenge": 0.006,
+   "kopf": [
+    -0.01668,
+    0.0422,
+    -0.17278
+   ],
+   "ende": [
+    -0.01883,
+    0.04298,
+    -0.17833
+   ]
+  }
+ ]
+}

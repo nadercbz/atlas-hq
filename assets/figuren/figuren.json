@@ -1,0 +1,204 @@
+[
+  {
+    "id": "brain",
+    "datei": "brain.glb",
+    "hoehe": 1.3,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.2912,
+      "knie": 0.1602,
+      "hals": 0.8658
+    }
+  },
+  {
+    "id": "coder",
+    "datei": "coder.glb",
+    "hoehe": 1.3,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.3016,
+      "knie": 0.1659,
+      "hals": 0.8242
+    }
+  },
+  {
+    "id": "maler",
+    "datei": "maler.glb",
+    "hoehe": 1.3,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.2392,
+      "knie": 0.1316,
+      "hals": 0.884
+    }
+  },
+  {
+    "id": "film",
+    "datei": "film.glb",
+    "hoehe": 1.3,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.26,
+      "knie": 0.143,
+      "hals": 0.9178
+    }
+  },
+  {
+    "id": "funk",
+    "datei": "funk.glb",
+    "hoehe": 1.62,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.7258,
+      "knie": 0.3629,
+      "hals": 1.2506
+    }
+  },
+  {
+    "id": "scout",
+    "datei": "scout.glb",
+    "hoehe": 1.62,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.7128,
+      "knie": 0.3564,
+      "hals": 1.2766
+    }
+  },
+  {
+    "id": "feld",
+    "datei": "feld.glb",
+    "hoehe": 1.62,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.6642,
+      "knie": 0.3321,
+      "hals": 1.1761
+    }
+  },
+  {
+    "id": "archiv",
+    "datei": "archiv.glb",
+    "hoehe": 1.62,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.7128,
+      "knie": 0.3564,
+      "hals": 1.2766
+    }
+  },
+  {
+    "id": "nader",
+    "datei": "nader.glb",
+    "hoehe": 1.7,
+    "clips": [],
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "arm_L",
+      "forearm_L",
+      "arm_R",
+      "forearm_R",
+      "leg_L",
+      "shin_L",
+      "leg_R",
+      "shin_R"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "huefte": 0.714,
+      "knie": 0.357,
+      "hals": 1.3056
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "katze",
+    "datei": "katze.glb",
+    "schulter": 0.3,
+    "laenge": 0.5872,
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "fl_upper",
+      "fl_lower",
+      "fr_upper",
+      "fr_lower",
+      "tail",
+      "tail_2",
+      "bl_upper",
+      "bl_lower",
+      "br_upper",
+      "br_lower"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "schulter_y": 0.1983,
+      "huefte_y": 0.1983,
+      "knie_y": 0.0991,
+      "ruecken_y": 0.2296,
+      "vorderbeine_z": 0.1346,
+      "hinterbeine_z": -0.1346
+    }
+  },
+  {
+    "id": "affe",
+    "datei": "affe.glb",
+    "schulter": 0.48,
+    "laenge": 0.6166,
+    "knochen": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "fl_upper",
+      "fl_lower",
+      "fr_upper",
+      "fr_lower",
+      "bl_upper",
+      "bl_lower",
+      "br_upper",
+      "br_lower"
+    ],
+    "links_ist_plus_x": true,
+    "gelenke": {
+      "schulter_y": 0.3113,
+      "huefte_y": 0.3113,
+      "knie_y": 0.1557,
+      "ruecken_y": 0.3632,
+      "vorderbeine_z": 0.2106,
+      "hinterbeine_z": -0.2106
+    }
+  }
+]
